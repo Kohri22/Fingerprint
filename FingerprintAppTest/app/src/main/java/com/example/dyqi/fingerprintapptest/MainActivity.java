@@ -35,8 +35,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
             showtv.setText((String) (msg.obj));
-//            switch (msg.what) {
-//            }
         }
     };
 
